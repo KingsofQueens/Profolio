@@ -6,6 +6,8 @@ import HomePage from "./pages/HomePage";
 import AboutMePage from "./pages/AboutMePage";
 import PortfolioPage from "./pages/PortfolioPage";
 import Project3QHMPage from "./pages/Project3QHMPage";
+import Project2KeepSharingPage from "./pages/Project2KeepSharingPage";
+import Project1GetOutPage from "./pages/Project1GetOutPage";
 
 function App() {
   return (
@@ -20,6 +22,11 @@ function App() {
           path="/portfolio/queerhistorymonth"
           element={<Project3QHMPage />}
         />
+        <Route
+          path="/portfolio/keepsharing"
+          element={<Project2KeepSharingPage />}
+        />
+        <Route path="/portfolio/getout" element={<Project1GetOutPage />} />
       </Routes>
     </div>
   );

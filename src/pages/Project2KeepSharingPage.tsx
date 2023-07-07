@@ -1,9 +1,9 @@
 import React from "react";
 
-const Project3QHMPage = () => {
+const Project2KeepSharingPage = () => {
   return (
     <div>
-      Project3 - Queer History Month
+      Project 2 - Keep Sharing
       <div className="p-8 m-8">
         <div
           className="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover rounded-lg"
@@ -19,7 +19,7 @@ const Project3QHMPage = () => {
             <div className="flex justify-center items-center h-full">
               <div className="text-white">
                 <h2 className="font-semibold text-3xl mb-4 md:text-4xl">
-                  Queer History Month
+                  Keep Sharing
                 </h2>
                 <h4 className="font-semibold text-l mb-6 md:text-xl">
                   Project Summary
@@ -35,4 +35,4 @@ const Project3QHMPage = () => {
   );
 };
 
-export default Project3QHMPage;
+export default Project2KeepSharingPage;

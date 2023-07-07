@@ -18,7 +18,7 @@ const PortfolioPage = () => {
       </div>
 
       <div className="w-full border border-gray-300 rounded-lg shadow-md lg:max-w-md">
-        <Link to="/portfolio/keepgoing">Project 2 - Keep Sharing</Link>
+        <Link to="/portfolio/keepsharing">Project 2 - Keep Sharing</Link>
         <img
           className="object-cover w-full h-48 rounded-lg rounded-tr-lg"
           src="https://ik.imagekit.io/auewbfj8o/KeepSharing/Preview.png?updatedAt=1688679077088"

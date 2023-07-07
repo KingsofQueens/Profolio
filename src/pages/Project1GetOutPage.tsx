@@ -1,9 +1,9 @@
 import React from "react";
 
-const Project3QHMPage = () => {
+const Project1GetOutPage = () => {
   return (
     <div>
-      Project3 - Queer History Month
+      Project 1 - Get Out
       <div className="p-8 m-8">
         <div
           className="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover rounded-lg"
@@ -19,7 +19,7 @@ const Project3QHMPage = () => {
             <div className="flex justify-center items-center h-full">
               <div className="text-white">
                 <h2 className="font-semibold text-3xl mb-4 md:text-4xl">
-                  Queer History Month
+                  Get Out
                 </h2>
                 <h4 className="font-semibold text-l mb-6 md:text-xl">
                   Project Summary
@@ -31,8 +31,16 @@ const Project3QHMPage = () => {
       </div>
       <h4>Project Function</h4>
       <h4>Project Background</h4>
+      <div className="flex justify-center items-center h-full">
+        <iframe
+          src="https://get-out-game.netlify.app/"
+          title="Get Out Game"
+          width="1200"
+          height="750"
+        ></iframe>
+      </div>
     </div>
   );
 };
 
-export default Project3QHMPage;
+export default Project1GetOutPage;

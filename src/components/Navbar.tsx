@@ -14,7 +14,7 @@ const Navbar = () => {
         <li className="mx-4">
           <Link to="/aboutme">About me</Link>
         </li>
-        <li className="mx-4">Contact</li>
+        {/* <li className="mx-4">Contact</li> */}
       </ul>
     </div>
   );
